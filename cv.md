@@ -1,14 +1,14 @@
 [rsschool-cv]
 
 # Nadezнda Sereda
----
 
+---
 ### Contact information: 
 
 + **address:** *Moscow*
 + **Phone:**  *+7 952 821 40 99*
 + **E-mail:**  *q8523610@gmail.com* 
-+ **GitHub**  
++ **GitHub**   [Nadya-Sereda](https://github.com/Nadya-Sereda) 
 
 ---
 ### About Myself:
@@ -38,7 +38,8 @@ My education is juridical, but I have always been interested in photography, gra
 
   KATA from CODEWARS: Odd-Even String Sort
 
-```function sortMyString(S) {
+```javascript
+function sortMyString(S) {
   let even = '';
    let odd = '';
   
