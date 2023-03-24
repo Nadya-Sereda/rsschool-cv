@@ -56,7 +56,7 @@ function sortMyString(S) {
 
 ---
 ### Courses
- rsschool JS / FRONT-END. STAGE 0 
+ rsschool JS / FRONT-END. STAGE 0
 
 ---
 
