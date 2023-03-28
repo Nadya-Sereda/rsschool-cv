@@ -8,7 +8,7 @@
   flex-direction: row;
   max-width: 1200px;
   margin: auto;
-  background: src="./images/ns.png";
+  background-image: url("./images/ns.png");
   background-color: #f8f3ed;
   box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
 }
@@ -39,6 +39,7 @@
 }
 
 a {
+  text-decoration: none;
   color: #ffffff;
   font-family: times new roman, sans-serif;
   font-weight: bold; 
@@ -100,29 +101,30 @@ h3 {
   margin-left: 20px;
 }
 
-.button-grupp {
+.button-group {
   display: flex;
   flex-direction: column;
 }
 
-.button {
+.contact-button {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 230px;
+  width: 210px;
   height: 35px;
   background-color: #967677;
   border: none;
   margin-bottom: 35px;
   padding-left: 20px;
   box-shadow: 0 0 6px 2px rgb(39, 32, 32);
+  cursor: pointer;
 }
 
-.button:hover {
+.contact-button:hover {
   transform: scale(1.1)
 }
 
-.button__span {
+.icon-link {
   color: #ffffff;
   font-family: times new roman, sans-serif;
   font-weight: bold; 
@@ -188,7 +190,7 @@ li {
   background-color: #d2cac6; 
 }
 
-.github {
+.my-name {
   color: #ffffff;
   font-family: times new roman, sans-serif;
   font-weight: bold; 
